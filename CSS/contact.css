@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Electrolize', sans-serif;
+}
+
+body {
+ margin: 0;
+  
+}
+
+h1 {
+    text-align: center;
+    color: rgb(240, 237, 233);
+    padding: 20px 0px 20px 0px;
+  
+  
+  }
+
+  a {
+
+    color: rgb(202, 108, 31);
+  }
+  
+  li {
+    display: inline-block;
+    color: rgb(240, 237, 233);
+    padding-right: 25px;
+  
+  
+  }
+  
+  #nav-bg {
+    position: absolute;
+    z-index: -2;
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+  }
+
+  .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 50px;
+
+}
+#logo{
+   position: relative;
+  width: 70px;
+  right: 50px;
+  background-color: white;
+  padding: 5px;
+  border-radius: 24px;
+}
+  
+  ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+
+  .container {
+    padding: 55px;
+    color: white;
+    text-align: center;
+  
+  }
+  
+  input[type=text], select, textarea {
+    display: list-item;
+    width: 70%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid rgb(7, 4, 0); /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+    background-color: rgb(253, 253, 253);
+    color: rgb(7, 7, 7);
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: rgb(202, 108, 31);
+    color: rgb(8, 8, 8);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .containerform {
+   position: absolute;
+   left: 50%;
+   height: 75%;
+   width: 50%;
+    border-radius: 5px;
+    background-color: #fcfcfc;
+    padding:  50px;
+    
+  }
+
+  .mapcontainer{
+    padding: 50px;
+    
+    
+  }
+
+ 
+ 
+
+  .container2 {
+      position: absolute;
+      margin-top: 10%;
+    width: 100%;
+    height: 20%;
+    padding: 2%;
+    
+  }
+  
+  #address{
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    color:rgb(238, 131, 9);;
+  }
+  
+  .column {
+   float: left;
+    width: 5%;
+    padding: 5px;
+    
+   
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+ 
